@@ -1,0 +1,32 @@
+
+
+#innovation_modal_content button.close {
+    position: absolute;
+    right: -22px;
+    top: -27px;
+    background: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #fff !important;
+    opacity: 10;
+}
+
+div#innovation_modal_btn {
+    display: flex;
+}
+
+#innovation_modal_btn button.btn {
+    background: #0062cc;
+    color: #fff;
+}
+
+#innovation_modal_btn button.btn:hover {
+    background: #0062cc;
+    color: #fff;
+}
+
+#innovation_modal_btn button.btn:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}

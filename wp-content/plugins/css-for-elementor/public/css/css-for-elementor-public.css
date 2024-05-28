@@ -1,0 +1,53 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.browser-d-btn img {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+.browser-d-btn a {
+    font-size: 30px;
+}
+
+h3.bro-title {
+    font-size: 30px;
+}
+
+p.bro-content {
+    font-size: 20px;
+}
+
+ /** Innovative button style */
+
+ .cssfe-innovative-btn {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    min-width: 150px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    border-radius: 2px;
+    padding: 20px 30px;
+    font-size: 16px;
+    line-height: 1;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.rainbow:hover{
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    animation:slidebg 5s linear infinite;
+}
+
+ @keyframes slidebg {
+    to {
+        background-position:20vw;
+    }
+} 

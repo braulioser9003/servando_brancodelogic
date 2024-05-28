@@ -1,0 +1,41 @@
+
+#innovative_social_tooltip ul {
+    padding: 0;
+    margin: 0;
+}
+
+#innovative_social_tooltip a {
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 1px 0px 15px 3px #49505754;
+}
+
+#innovative_social_tooltip a:hover {
+    background: green;
+}
+
+#innovative_social_tooltip a:hover i,
+#innovative_social_tooltip a:hover span, 
+#innovative_social_tooltip a:hover svg {
+    color: #fff;
+    fill: #fff;
+}
+
+#innovative_social_tooltip ul li:focus,
+#innovative_social_tooltip ul li a:focus,
+#innovative_social_tooltip ul li a i:focus,
+#innovative_social_tooltip ul li a span:focus,
+#innovative_social_tooltip ul li:visited,
+#innovative_social_tooltip ul li a:visited,
+#innovative_social_tooltip ul li a i:visited,
+#innovative_social_tooltip ul li a span:visited {
+    outline: none !important;
+    background: none !important;
+}
+
+

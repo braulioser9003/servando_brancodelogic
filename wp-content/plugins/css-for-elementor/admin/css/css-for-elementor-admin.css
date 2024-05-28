@@ -1,0 +1,246 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+body {
+    background-color: #f1f1f1;
+}
+
+.cssef-lw {
+    min-width: 220px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.notice-success.is-dismissible.cssfe-review {
+    height: 100px;
+}
+
+.cssfe-review-notice img.review-logo {
+    width: 80px;
+    height: auto;
+}
+
+img.plu-logo {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.cssfe-review-notice p {
+    font-size: 16px;
+}
+
+.cssfe-review-notice ul li {
+    display: inline-block;
+    margin: 0px 21px 0px 0px;
+    color: #b32464;
+}
+
+.notice.elementor-message {
+    display: none !important;
+}
+
+.cssef-cp .wp-picker-container .iris-picker {
+    border-radius: 0;
+    border-color: #ddd;
+    margin-top: 6px;
+    position: absolute;
+    z-index: 9999999;
+}
+
+span.px-type-input {
+    position: relative;
+    max-width: 100px !important;
+}
+
+.px-type-input input[type="text"] {
+    width: 100px;
+}
+
+span.set-input-text {
+    position: absolute;
+    background: #f7f7f7;
+    padding: 2px;
+    color: #32373c;
+    right: 0px;
+    border-radius: 0px 3px 3px 0px;
+    border: 1px solid green;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+
+.cssef-css-class {
+    border: none !important;
+    background-color: rgba(0, 0, 0, .1) !important;
+}
+
+.cssef-css-class:focus {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none;
+}
+
+span#copy {
+    background: gray;
+    padding: 6px;
+    position: relative;
+}
+
+#copy i.far.fa-copy {
+    font-size: 18px;
+    color: #ddd;
+    cursor: pointer;
+}
+
+input[type="url"]::placeholder {
+    color: #80808047;
+}
+
+.cssef-cp p span {
+    margin-right: 0px;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.meta-box {
+    box-sizing: border-box;
+    box-shadow: 2px 2px 6px 3px #f8f9fa;
+    padding: 15px 10px 0px;
+    border-radius: 3px;
+}
+
+.meta-box.cssfe-pro-box {
+    min-height: 140px !important;
+}
+
+.cssfe-pro-box sup.Pro {
+    font-size: 10px;
+    border-radius: 5px;
+}
+.cssfe-pro-box sup.free {
+    font-size: 12px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+#cssfe_widgetlist_tab a{
+    text-decoration: none !important;
+}
+.cssef-pro-add-on-control {
+    position: relative;
+}
+
+.cssef-pro-add-on-control .cssfe-pro-box {
+    margin: 15px 0px 0px;
+}
+
+.cssfe-pro-box .title {
+    font-size: 17px;
+    font-weight: 600;
+    color: green;
+}
+
+.cssfe-pro-box .desc {
+    font-size: 14px;
+    font-weight: 400;
+    color: #343a40;
+}
+
+.cssfe-pro-box i.fas.fa-desktop {
+    font-size: 15px;
+    margin: 0px 10px;
+    color: #929eaa;
+}
+
+.cssfe-pro-box i.far.fa-question-circle {
+    font-size: 15px;
+    color: #929eaa;
+}
+
+a.cssfe-pro-button {
+    position: absolute;
+    top: 13px;
+    right: 15px;
+    background: #17a2b8;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-weight: 500;
+    border: 1.5px solid #17a2b8;
+}
+a.cssfe-pro-button:hover{
+    background: transparent;
+    border: 1.5px solid #17a2b8 !important;
+    background: #17a2b8;
+    color: #00008B;
+
+}
+
+.cssfe-bostbox{
+	border:none !important;
+	box-shadow: 0px 0px 22px -5px #d5c3c542 !important;
+	border-radius: 5px;
+	padding: 20px !important;
+}
+
+.cssfe-pro-box{
+    position: relative;
+}
+.cssfe-pro-box p.feature-type {
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    background: #17a2b8;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 3px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 0px !important;
+}
+
+.cssfe-pro-box p.feature-type.free {
+    background: #28a745;
+
+}
+
+/* Jquery ui tabs */
+
+.cssfe-ui-tabs ul.ui-tabs-nav {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cssfe-ui-tabs li.ui-tabs-tab {
+    background: #dcdcde;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 22px -5px #d5c3c542 !important;
+}
+
+.cssfe-ui-tabs li.ui-tabs-tab a{
+    color: black;
+    text-transform: uppercase;
+}
+
+.cssfe-ui-tabs li.ui-tabs-active{
+    background: #fff;
+}
+
+.cssfe-ui-tabs li.ui-tabs-tab a:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.cssfe-ui-tabs li.ui-tabs-tab a:hover{
+    text-decoration: none;
+}
+
